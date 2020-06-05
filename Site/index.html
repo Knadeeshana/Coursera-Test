@@ -1,11 +1,34 @@
-<!DOCTYPE html>
+<!doctype html5>
 <html lang="en">
 <head>
+    <script>
+        function doYellow(){
+            var dd=document.getElementById("one");
+            //dd.className="olive";
+            dd.style.backgroundColor="blue";
+  }
+  
+
+    </script>
+    
+    <link rel="stylesheet" href="stylez.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello Coursera</title>
 </head>
 <body>
-    <h1>Hello Coursera- Nice course</h1>
+    <h1>μMora Quiz Platform</h1>
+    <!--img id="logo" src="logo.png" height="250px"-->
+    
+    <canvas id="dashboard"></canvas>
+    <canvas id="questionpane"></canvas>
+
+    <canvas id="one" ></canvas>
+    <canvas id="two" class="olive"></canvas><br>
+  
+    <input type="button" id="xl" value="yellow" onclick="doYellow()">
+    <input type="button" id="x2" value="red" onclick="changeText()">
+
+      
 </body>
 </html>
