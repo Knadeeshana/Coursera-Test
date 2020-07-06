@@ -1,0 +1,45 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(196, 243, 204);
+    font-family: 'Oxygen', sans-serif;
+  }
+#header-nav{
+
+    border-radius: 0;
+    border: none;
+}
+#brand-title{
+    font-size: 1.8em;
+    font-weight: 500;
+    color: white;
+    margin: auto;
+}
+#navbar-collapse span{
+    font-size: 1.2em;
+    color: white;
+}
+.active{
+    background-color: rgb(37, 37, 37);
+}
+#menu-title{
+    padding-bottom: 20px;
+    padding-top: 0px;
+    color: black;
+}
+#menu-content{
+    border: 2px solid black;
+    padding: 0px 15px 10px 15px;
+    background-color: rgb(192, 192, 192);
+    color: black;
+    margin-bottom: 30px;
+}
+#menu-content p{
+    font-size: 1.2em;
+}
+
+@media (max-width:767px){
+    #brand-title{
+        font-size: 1.5em;
+    }
+}
