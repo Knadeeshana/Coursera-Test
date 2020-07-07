@@ -15,6 +15,9 @@ body {
     color: white;
     margin: auto;
 }
+.nav>li>a{
+    background-color: rgb(43, 43, 43);
+}
 #navbar-collapse span{
     font-size: 1.2em;
     color: white;
@@ -27,14 +30,14 @@ body {
     padding-top: 0px;
     color: black;
 }
-#menu-content{
+.menu-content{
     border: 2px solid black;
     padding: 0px 15px 10px 15px;
     background-color: rgb(192, 192, 192);
     color: black;
     margin-bottom: 30px;
 }
-#menu-content p{
+.menu-content p{
     font-size: 1.2em;
 }
 
