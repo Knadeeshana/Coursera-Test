@@ -1,0 +1,2 @@
+Kumaragreeter.Hi();
+kevingreeter.Hello();
