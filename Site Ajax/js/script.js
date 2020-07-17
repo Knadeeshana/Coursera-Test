@@ -128,6 +128,7 @@ var buildAndShowMenuItemsHTML=function(categoryMenuItems){
     $ajaxUtils.sendGetRequest(menuItemHtml,function(menuItemHtml){
       var menuItemsViewHtml=buildMenuItemsViewHtml(categoryMenuItems,menuItemsTitleHtml,menuItemHtml);
       insertHtml("#main-content",menuItemsViewHtml);
+      switchMenuToActive();
     },false)
   },false)
   
